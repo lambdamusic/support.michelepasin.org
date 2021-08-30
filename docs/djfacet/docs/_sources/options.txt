@@ -1,0 +1,56 @@
+Settings Options
+************************
+
+
+if hasattr(settings, 'DJFACET_CACHE'):
+	DJFACET_CACHE = settings.DJFACET_CACHE
+else:
+	DJFACET_CACHE = False
+	
+if hasattr(settings, 'DJFACET_COUNT'):
+	DJFACET_COUNT = settings.DJFACET_COUNT
+else:
+	DJFACET_COUNT = False	
+	
+	
+if hasattr(settings, 'DJFACET_TEST'):
+	DJFACET_TEST = settings.DJFACET_TEST
+else:
+	DJFACET_TEST = False
+
+if hasattr(settings, 'DJFACET_RAMCACHE'):
+	DJFACET_RAMCACHE = settings.DJFACET_RAMCACHE
+else:
+	DJFACET_RAMCACHE = False
+	
+
+if hasattr(settings, 'DJFACET_AJAX'):
+	DJFACET_AJAX = settings.DJFACET_AJAX
+else:
+	DJFACET_AJAX = False	
+	
+	
+if hasattr(settings, 'DJ_MAX_RESULTS_PER_PAGE'):
+	DJ_MAX_RESULTS_PER_PAGE = settings.DJ_MAX_RESULTS_PER_PAGE
+else:
+	DJ_MAX_RESULTS_PER_PAGE = 50	
+
+
+if hasattr(settings, 'DJ_2COLUMNS_INNERFACET'):
+	DJ_2COLUMNS_INNERFACET = settings.DJ_2COLUMNS_INNERFACET
+else:
+	DJ_2COLUMNS_INNERFACET = False
+	
+
+
+if hasattr(settings, 'DJ_SHOWLOGS'):
+	DJ_SHOWLOGS = settings.DJ_SHOWLOGS
+else:
+	DJ_SHOWLOGS = False
+
+
+
+if hasattr(settings, 'DJ_SPECS_MODULE'):
+	DJ_SPECS_MODULE = settings.DJ_SPECS_MODULE
+else:
+	DJ_SPECS_MODULE = 'facetspecs'
